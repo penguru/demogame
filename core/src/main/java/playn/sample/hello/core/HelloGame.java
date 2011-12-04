@@ -14,7 +14,7 @@
  * the License.
  */
 package playn.sample.hello.core;
-
+// tes commit 
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,7 +49,7 @@ public class HelloGame implements Game {
       @Override
       public void onPointerEnd(Pointer.Event event) {
         Pea pea = new Pea(peaLayer, event.x(), event.y());
-        peas.add(pea);
+        peas.add(pea);  
       }
     });
   }
